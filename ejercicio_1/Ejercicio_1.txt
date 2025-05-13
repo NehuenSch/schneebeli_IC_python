@@ -1,0 +1,21 @@
+COMPLEJIDAD CICLOMATICA:
+    Nodos (N): 9
+    Aristas (A): 8
+    Nodos Predicados (NP): 0
+    Regiones (R): 1
+
+    **CALCULOS*
+    V(g) = A - N + 2
+        = 8 - 9 + 2
+        = -1 + 2
+        =1
+
+    V(g) = R
+        = 1
+
+    V(g) = NP + 1
+        = 0 + 1
+        = 1
+
+    CONCLUCIÓN:
+    El ejercicio, tiene una complejidad ciclomatica baja por lo cual resulta muy sensillo su abordaje para futuras modificaciones.
