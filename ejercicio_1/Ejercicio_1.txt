@@ -1,4 +1,4 @@
-COMPLEJIDAD CICLOMATICA:
+****COMPLEJIDAD CICLOMATICA****
     Nodos (N): 9
     Aristas (A): 8
     Nodos Predicados (NP): 0
@@ -19,3 +19,30 @@ COMPLEJIDAD CICLOMATICA:
 
     CONCLUCIÓN:
     El ejercicio, tiene una complejidad ciclomatica baja por lo cual resulta muy sensillo su abordaje para futuras modificaciones.
+
+****PRUEBAS DE CAJA NEGRA*****
+    Particion de equivalencias:
+        caso1: 
+            num1 = 10
+            num2 = 10
+            num1 + num2 = 20
+            resultado = esperado
+        caso2: 
+            num1 = -10
+            num2 = 10
+            num1 + num2 = 0
+            resultado = esperado
+        caso3: 
+            num1 = 100
+            num2 = -10
+            num1 + num2 = 90
+            resultado = esperado
+        caso4: 
+            num1 = 10
+            num2 = 2*70
+            num1 + num2 = ValueError: invalid literal for int() with base 10: '2*70'
+            resultado = inesperado
+    CONCLUCIÓN:
+            Los resultados obtenidos, de las pruebas realizadas con la ejecucion del codigo son normales.
+            Se admiten numeros dentro del dominio de los reales.
+            No se admiten operaciones aritmeticas, ni datos de tipo caracter.

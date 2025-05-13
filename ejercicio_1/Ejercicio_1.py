@@ -4,13 +4,13 @@
 
 #Se deben pedir dos numero al usuario para realizar la suma de dichos numeros y mostrar por pantalla el resultado
 if __name__ == '__main__': #Se ejecuta todo lo que este abajo de esta
-	num1 = int()
-	num2 = int()
-	resultado = int()
+	num1 = float()
+	num2 = float()
+	resultado = float()
 	print("Ingrese el primer numero para realizar la suma")
-	num1 = int(input())
+	num1 = float(input())
 	print("Ingrese el segundo numero para realizar la suma")
-	num2 = int(input())
+	num2 = float(input())
 	resultado = num1+num2
 	print("El resultado de la sumatoria de sus dos numeros es: ",resultado)
 
